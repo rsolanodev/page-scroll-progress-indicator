@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.App {
+  margin-top: 66px;
+
+  .Navbar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    background-color: #20232a;
+    color: #fff;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    span {
+      font-weight: 300;
+      color: #fff;
+      text-decoration: none;
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+      transition: color 0.2s ease-out;
+      padding: 1em 0;
+    }
+  }
+
+  #container {
+    padding: 2em 0;
+
+    p {
+      width: 75%;
+      margin: 0 auto;
+      padding: .5em 0;
+    }
+  }
+}
+
